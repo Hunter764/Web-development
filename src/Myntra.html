@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style type="text/css">
+        body {
+            
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fff;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .navbar .nav-links {
+            display: flex;
+            gap: 20px;
+            font-style: normal;
+        }
+        .navbar .nav-links span {
+            cursor: pointer;
+            color: #000;
+            text-decoration: none;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+            width: 90%;
+            max-width: 300px;
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            border: 1px;
+        }
+        
+        .search-placeholder {
+            color: grey;
+            width: 250px;
+        }
+        
+     
+        .navbar .user-actions {
+            display: flex;
+            gap: 20px;
+        }
+
+        .header-icons{
+            display: flex;
+        }
+        .header-icons div span{
+            display: block;
+            padding-right: 20px;
+        }
+        header div sup{
+            color: red;
+            font-size: 11px;
+        }
+        .bi-person,.bi-heart{
+            margin-left: 14px;
+        }
+        .bi-bag{
+            margin-left:5px;
+        }
+
+
+        /* footer*/
+
+        .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #f8f8f8;
+        border-top: 1px solid #ddd;
+        }
+
+        .column {
+        flex: 1;
+        margin: 0 10px;
+        }
+        
+        .footer .column span {
+        display: block;
+        margin-bottom: 8px;
+        color: #333;
+        }
+
+        .footer .column h4 {
+        margin-bottom: 10px;
+        color: #000;
+        }
+
+        .footer .apps {
+        display: flex;
+        gap: 10px;
+        }
+
+        .footer .social-icons {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+        }
+
+        .footer .guarantees {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        }
+
+        .footer .guarantees span {
+        display: grid;
+        align-items: center;
+        }
+
+        .footer .guarantees img {
+        margin-right: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class=""></div>
+            
+            <div class="nav-links">
+                <span>MEN</span>
+                <span>WOMEN</span>
+                <span>KIDS</span>
+                <span>HOME & LIVING</span>
+                <span>BEAUTY</span>
+                <span>STUDIO <sup style="color:red;">NEW</sup></span>
+            </div>
+            <div class="search-container">
+                <span class="bi bi-search"></span> 
+                <span class="search-placeholder">Search for products, brands and more</span>
+            </div>
+            
+            <div class="header-icons">
+                <div>
+                    <span class="bi bi-person"></span>
+                    <span>Profile</span>
+                </div>
+                <div>
+                    <span class="bi bi-heart"></span>
+                    <span>Wishlist</span>
+                </div>
+                <div>
+                    <span class="bi-bag"></span>
+                    <span>Bag</span>
+                </div>
+        </div>
+    </header>
+
+    <footer>
+        <div class="footer">
+    
+        
+            <div class="column">
+                <h5>ONLINE SHOPPING</h5>
+                <span>Men</span>
+                <span>Women</span>
+                <span>Kids</span>
+                <span>Home & Living</span>
+                <span>Beauty</span>
+                <span>Gift Cards</span>
+                <span>Myntra Insider</span>
+            </div>
+    
+            <div class="column">
+                <h5>USEFUL LINKS</h5>
+                <span>Blog</span>
+                <span>Careers</span>
+                <span>Site Map</span>
+                <span>Corporate Information</span>
+                <span>Whitehat</span>
+                <span>Cleartrip</span>
+            </div>
+    
+            <div class="column">
+                <h5>CUSTOMER POLICIES</h5>
+                <span>Contact Us</span>
+                <span>FAQ</span>
+                <span>T&C</span>
+                <span>Terms Of Use</span>
+                <span>Track Orders</span>
+                <span>Shipping</span>
+                <span>Cancellation</span>
+                <span>Returns</span>
+                <span>Privacy policy</span>
+                <span>Grievance Officer</span>
+            </div>
+            <div class="column">
+                <h5>EXPERIENCE MYNTRA APP ON MOBILE</h5>
+                
+                <h5>KEEP IN TOUCH</h5>
+                <div class="social-icons">
+                    <span class="bi bi-facebook"></span>
+                    <span class="bi bi-twitter"></span>
+                    <span class="bi bi-youtube"></span>
+                    <span class="bi bi-instagram"></span>
+                </div>
+            </div>
+            <div class="column guarantees">
+                <span><b>100% ORIGINAL</b> guarantee for all products at myntra.com</span>
+                <br>
+                <span><b>Return within 14 days</b> of receiving your order</span>
+            </div>
+        </div>
+        
+    
+        
+    </footer>
+    
+</body>
+</html>
