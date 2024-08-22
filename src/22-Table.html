@@ -1,3 +1,9 @@
+<!-- Table elements in HTML
+->Tables are used to organise the data  in rows and columns(data presented inside the table is not SEO frindely)
+-> Tables internallly are presented with the help  -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +14,7 @@
         table{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 20px;
+            background-size: contain;
         }
         table img{
             width: 50px;
@@ -33,10 +40,11 @@
     </style>
 </head>
 <body>
-    <table width ="100%" frame="box" rules="column" border="1" cellspacing="5">
+    <table width ="100%" frame="void" rules="column" border="1" cellspacing="5"  >
+        
         <caption>Asia Cup point table 2024</caption>
         <thead>
-            <tr>
+            <tr >
                 <th>Pos</th>
                 <th colspan="2">Teams</th>
                 <th>Matches </th>
@@ -53,7 +61,7 @@
         <tbody>
             <tr>
                 <td>1</td>
-                <td>
+                <td width="200" >
                     <img src="../public/images/IND.jpg" alt="can't display">
                 </td>
                 <td>IND</td>
@@ -64,10 +72,10 @@
                 <td>1</td>
                 <td>3</td>
                 <td>+4.760</td>
-                <td>
+                <td align="center">
                     <span class="W">W</span>
                 </td>
-                <td>
+                <td align="center">
                     <span class="A">A</span>
                 </td>
                 
@@ -85,10 +93,10 @@
                 <td>1</td>
                 <td>3</td>
                 <td>+1.860</td>
-                <td>
+                <td align="center">
                     <span class="A">A</span>
                 </td>
-                <td>
+                <td align="center">
                     <span class="W">W</span>
                 </td>
             </tr>
@@ -105,10 +113,10 @@
                 <td>1</td>
                 <td>3</td>
                 <td>-3.530</td>
-                <td>
+                <td align="center">
                     <span class="L">L</span>
                 </td>
-                <td>
+                <td align="center">
                     <span class="L">L</span>
                 </td>
             </tr>
