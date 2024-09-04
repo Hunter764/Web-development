@@ -1,0 +1,48 @@
+<!-- 
+ ->Form provides an UI from where user can interact with our application.
+->Interaction includes insert, update, delete, query etc.[CRUD/CURD/SCUD]
+->Form is generic  container which have default functionality.
+->Form can submit and ca reset its data without configuring any explicit functionality. -->
+
+<!-- Form Container:- It is designed by using <form> tag
+Syntax:
+    <form>
+        form elements
+    </form>
+
+
+Note: In a page we can submit the details only when they are enclosed in a form.
+
+Name: <input type="text" name="Name"> //Not good
+
+<form>
+    NAme: <input type="text" name="Name"> //OK
+</form>
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+
+        div,form{
+            border: 1px solid black;
+            height: 300px;
+            width: 400px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        DIV: <input type="text"  name="Username"><button>Sublmit</button><button>Clear</button>
+    </div>
+    <form>
+        FORM: <input type="text"  name="Username"><button>Sublmit</button><button>Clear</button>
+    </form>
+</body>
+</html>
