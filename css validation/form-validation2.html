@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style type="text/css">
+
+        .terms + span{
+            color: red;
+        }
+        .terms:checked+span{
+            color: green;
+        }
+        .terms ~button{
+            display: none;
+        }
+        .terms:checked ~button{
+            display: block;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <form class="mt-3 p-4">
+        <dl>
+            <dt>Terms and Services</dt>
+            <dd>
+                <textarea name="" >Terms and Conditions</textarea>
+            </dd>
+            <dd>
+                <input type="checkbox" name="" class="terms"><span>I Accept</span><br>
+                <button class="btn btn-primary">Submit</button>
+            </dd>
+
+        </dl>
+    </form>
+    
+</body>
+</html>
