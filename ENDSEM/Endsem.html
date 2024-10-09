@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            padding: 10px 20px;
+        }
+        .logo{
+            font-size: x-large;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-left: 120px; 
+            color: #333;
+            font-weight: bold;
+        }
+        .nav-links{
+            padding: 2px;
+            margin-left: 600px;
+        }
+        .nav-links span {
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .search-container {
+            padding: 10px;
+            background-color: #333;
+            border-radius: 50%;
+            margin-right: 100px;
+        }
+        .search-container .bi-cart {
+            color: #fff;
+            font-size: 18px;
+            
+        }
+        .upper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color:black;
+            color: white;
+            padding: 10px; 
+            
+        }
+        .social-media{
+            margin-right: 120px;
+        }
+        .social-media span{
+            margin-left: 10px;
+        }
+        .contact-info span{
+            padding: 20px;
+        }
+        .contact-info{
+            margin-left: 100px;
+        }
+
+        .search-item{
+            display: flex;
+            align-items: center;
+            width: 90%;
+            max-width: 300px;
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            border: 1px;
+        }
+
+        /* footer */
+        .footer-container {
+            background-color: #f64b18;
+            color: #fff;
+            text-align: center;
+            padding: 25px;
+        }
+       
+        .footer-head{
+            font-size: xx-large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .input-container button{
+            border: 1px solid white;
+            padding: 5px 20px;
+            color: white;
+            background-color: #f64b18;
+            margin-top: 10px;
+        }
+        .input-container input[type="email"] {
+            width: 350px;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+            outline: none;
+            margin-top: 50px;
+        }
+
+        /* section */
+        .section-container {
+            background-color:lightblue; 
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .section-but button{
+            border: 1px solid white;
+            padding: 5px 20px;
+            color: white;
+            background-color: #f75524;
+            margin-top: 2px;
+
+        }
+        .parasf{
+            font-size:large;
+        }
+        .parasff{
+            font-size: small;
+        }
+
+        .imagesurf{
+            background-image: url(../public/images/a3.jpg);
+        }
+
+        /* section2 */
+        .sea-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 40px;
+            background-color: #f8f8f8;
+        }
+
+        .image-container {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .contentsea {
+            flex: 1;
+        }
+
+        .contentsea h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .contentsea p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .contentsea button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contentsea button:hover {
+            background-color: #f0f0f0;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="upper">
+          <div class="contact-info">
+            <span>+48789 456 123</span>
+            <span>contact@ssurfers.com</span>
+          </div>
+          <div class="social-media">
+            <span class="bi bi-facebook"></span>
+            <span class="bi bi-youtube"></span>
+            <span class="bi bi-instagram"></span>
+            <span class="bi bi-pinterest"></span>
+            <span class="bi bi-linkedin"></span>
+          </div>
+        </div>
+      </header>
+    <header>
+        <div class="navbar">
+            <div class=""><span class="logo">SSURFERS</span></div>
+            <div class="nav-links">
+                <span>Home</span>
+                <span>Products</span>
+                <span>Blog</span>
+                <span>About us</span>
+                <span>Contact</span>
+            </div>
+            <div class="search-container">
+                <span class="bi bi-cart"></span>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="section-container">
+            <p class="parasf">Choose a board for yourself</p>
+            <p class="parasff">Lorem ipsum dolor sit amet, consusandae ipsa aliquid, illo iure veritatis maiores</p>
+            <p class="parasff">Lorem ipsum dolor sit amet, consusandae </p>
+            <div class="section-but">
+                <button type="menu">CHECK OUR BOARDS</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="sea-container">
+            <div class="image-container">
+                <img src="../public/images/Sea.jpg" alt="Surfboards on a beach">
+            </div>
+            <div class="contentsea">
+                <h2>Learn more about surfing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et mauris lacinia, egestas velit eu, ultricies risus. Cras venenatis nec est volutpat ultrices. Phasellus velit odio, laoreet at placerat et, blandit a dolor. Mauris eu leo at ante hendrerit viverra. Vestibulum vel lectus non velit hendrerit luctus.</p>
+                <button>READ MORE</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="footer-container">
+            <p class="footer-head">Sign up for the newsletter!<p>
+            <p>Sign up for the newsletter and receive free web design knowledge.</p>
+            <div class="input-container">
+                <input type="email" placeholder="Your email"><br>
+                <button type="submit">SIGN UP</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
